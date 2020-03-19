@@ -1,0 +1,100 @@
+KIIT@CSE1805500 MINGW64 /c/Nitin/programs/OS/MFQS
+$ gcc mfqs.c
+
+KIIT@CSE1805500 MINGW64 /c/Nitin/programs/OS/MFQS
+$ ./a
+
+Running Process0 in 0 and 1
+Running Process0 in 1 and 2
+Running Process0 in 2 and 3
+Running Process0 in 3 and 4
+Running Process1 in 4 and 5
+Running Process1 in 5 and 6
+Running Process1 in 6 and 7
+Running Process1 in 7 and 8
+Running Process3 in 8 and 9
+Running Process3 in 9 and 10
+Running Process3 in 10 and 11
+Running Process3 in 11 and 12
+Running Process2 in 12 and 13
+Running Process2 in 13 and 14
+Running Process2 in 14 and 15
+Running Process2 in 15 and 16
+Running Process4 in 16 and 17
+Running Process4 in 17 and 18
+Running Process4 in 18 and 19
+Running Process4 in 19 and 20
+Running Process0 in 20 and 21
+Running Process0 in 21 and 22
+Running Process0 in 22 and 23
+Running Process0 in 23 and 24
+Running Process1 in 24 and 25
+Running Process1 in 25 and 26
+Running Process1 in 26 and 27
+Running Process1 in 27 and 28
+Running Process1 in 28 and 29
+Running Process1 in 29 and 30
+Running Process1 in 30 and 31
+Running Process3 in 31 and 32
+Running Process3 in 32 and 33
+Running Process3 in 33 and 34
+Running Process3 in 34 and 35
+Running Process3 in 35 and 36
+Running Process3 in 36 and 37
+Running Process3 in 37 and 38
+Running Process2 in 38 and 39
+Running Process2 in 39 and 40
+Running Process2 in 40 and 41
+Running Process2 in 41 and 42
+Running Process2 in 42 and 43
+Running Process2 in 43 and 44
+Running Process2 in 44 and 45
+Running Process4 in 45 and 46
+Running Process4 in 46 and 47
+Running Process4 in 47 and 48
+Running Process4 in 48 and 49
+Running Process1 in 49 and 50
+Running Process1 in 50 and 51
+Running Process1 in 51 and 52
+Running Process1 in 52 and 53
+Running Process1 in 53 and 54
+Running Process3 in 54 and 55
+Running Process3 in 55 and 56
+Running Process3 in 56 and 57
+Running Process3 in 57 and 58
+Running Process2 in 58 and 59
+Running Process2 in 59 and 60
+Running Process2 in 60 and 61
+Running Process2 in 61 and 62
+Running Process1 in 62 and 63
+Running Process1 in 76 and 77
+Running Process1 in 77 and 78
+Running Process1 in 78 and 79
+Running Process1 in 79 and 80
+Running Process1 in 80 and 81
+Running Process1 in 81 and 82
+Running Process1 in 82 and 83
+Running Process1 in 83 and 84
+Running Process1 in 84 and 85
+Running Process1 in 85 and 86
+Running Process1 in 86 and 87
+Running Process2 in 87 and 88
+Running Process2 in 88 and 89
+Running Process2 in 89 and 90
+Running Process1 in 90 and 91
+Running Process1 in 91 and 92
+Running Process1 in 92 and 93
+Running Process1 in 93 and 94
+Running Process1 in 94 and 95
+Running Process1 in 95 and 96
+
+Quantum Time Queue 1: 4
+Quantum Time Queue 2: 7
+Quantum Time Queue 3: 11
+Fixed Time: 50
+PID     ARRIVAL_TIME    BURST_TIME      TURN_AROUND_TIME        WAITING_TIME    RESPONSE_TIME
+P0              0           8                   24                  16              0
+P1              3           40                  93                  53              1
+P3              7           15                  51                  36              1
+P2              9           25                  81                  56              3
+P4              10          8                   39                  31              6

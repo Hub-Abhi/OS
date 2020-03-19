@@ -1,0 +1,11 @@
+TotalProcesses: 5
+//PID           ARRIVALTIME     BURSTTIME
+Process0            0               8
+Process1            3               40
+Process2            9               25
+Process3            7               15
+Process4            10              8
+QuantumTimeQ1: 4
+QuantumTimeQ2: 7
+QuantumTimeQ3: 11
+FixedTime: 50           //After this time all process will go back to Q1.
