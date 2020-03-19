@@ -1,0 +1,8 @@
+TotalProcesses: 5
+//PID           ARRIVALTIME     BURSTTIME
+Process0            1               6
+Process1            2               4
+Process2            2               2
+Process3            5               3
+Process4            7               5
+QuantumTime: 2

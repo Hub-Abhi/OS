@@ -1,0 +1,6 @@
+//PID           BURSTTIME
+4
+Process1            20
+Process2            9
+Process3            3
+Process4            6
