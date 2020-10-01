@@ -62,7 +62,7 @@ int main()
     fscanf(fin,"%d",&n);
     if(n==0)
     {
-        printf("No Process in Ready Queue\n");
+        printf("There is no Process in Ready Queue\n");
         exit(0);
     }
     process *p=(process *)malloc(n*sizeof(process));
